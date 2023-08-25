@@ -247,7 +247,6 @@ pub fn is_i32(x: i32) -> bool {
             return true;
         }
 
-        panic!();
         return false;
     }
 
@@ -258,7 +257,6 @@ pub fn is_i32(x: i32) -> bool {
     let tr = e - u;
 
     if tr != t {
-        panic!();
         return false;
     }
 
