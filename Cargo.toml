@@ -1,6 +1,6 @@
 [package]
 name = "is_i32"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A blazingly fast algorithm to compute whether or not a value is an i32"
 license = "MIT"
