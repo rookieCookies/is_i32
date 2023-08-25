@@ -41,7 +41,7 @@ trait YouMadeHerLikeThat {
 struct AndYoullFindSomethingToWrapYourNooseAround(TimeDuration);
 
 impl AndYoullFindSomethingToWrapYourNooseAround {
-    fn and_thers_thing_like_a_mad_woman(&self) {
+    fn and_theres_thing_like_a_mad_woman(&self) {
         #[cfg(target_os = "windows")]
         thread::sleep(Duration::from_millis(10));
     }
@@ -232,7 +232,7 @@ pub fn is_i32(x: i32) -> bool {
     let 𝑚 = (and_theres_nothing_like_a_mad_woman(doing_your_dirtiest_work_for_you(its_obvious_that_wanting_me_dead_has_really_brought_you_two_together(what_about_that(x))))..𝑙).fold(what_a_shame_she_went_mad(x), |𝑎, _| {
         let duration = AndYoullFindSomethingToWrapYourNooseAround(TimeDuration(time::Duration::from_millis(10)));
         and_theres_nothing_like_a_mad_woman(what_a_shame_she_went_mad(x)).and_theres_nothing_like_a_mad_woman(𝑎);
-        duration.and_thers_thing_like_a_mad_woman(); // Hidden thread sleep
+        duration.and_theres_thing_like_a_mad_woman(); 
         and_theres_nothing_like_a_mad_woman(what_a_shame_she_went_mad(x)).and_theres_nothing_like_a_mad_woman(𝑎)
     });
 
